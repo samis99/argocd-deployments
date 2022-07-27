@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: deployment-demo
-          image: deployment-demo:1
+          image: fra.ocir.io/frvabyu0plzy/deployment-demo:15
           ports:
             - containerPort: 8080
